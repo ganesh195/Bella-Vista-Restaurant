@@ -61,7 +61,7 @@ header {
 }
 
 .hero {
-  height: 84vh;
+  height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://interiordesign.net/wp-content/uploads/2024/04/InteriorDesign_March2024_Brave-New-World-11.jpg");
   background-position: center;
@@ -77,7 +77,7 @@ header {
 .hero-content h2 {
   font-size: 3.3rem;
   letter-spacing: 3px;
-  margin-bottom: 1 rem;
+  margin-bottom: 0.3rem;
   font-weight: 400;
 }
 
@@ -123,4 +123,73 @@ header {
 .btn-secondary:hover {
   background-color: #fff;
   color: #2c3e50;
+}
+
+.menu {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  color: #2c3e50;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.menu-category {
+  margin-bottom: 3rem;
+}
+
+.menu-category h3 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e74c3c;
+  font-weight: bold;
+  padding-bottom: 0.5remm;
+}
+.menu-items {
+  display: grid;
+  gap: 1.5rem;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-3px);
+}
+
+.menu-item-info h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: #2c3e50;
+}
+
+.menu-item-info p {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-left: 1rem;
 }
